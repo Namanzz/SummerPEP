@@ -22,7 +22,7 @@ vector<int> nextGreaterElement(vector<int> &arr){
 
 int main()
 {
-    vector<int> arr={2,7,6,5,1};
+    vector<int> arr={4,5,2,10,8};
     vector<int> res=nextGreaterElement(arr);
     for(int i:res){
         cout<<i<<" ";
